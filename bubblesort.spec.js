@@ -17,7 +17,7 @@ describe("Bubble Sort", function () {
 });
 
 describe("probando spies", function () {
-  it("comer todo el chocolate debería llevar exactamente 3 masticadas", function () {
+  it("El algoritmo para el arreglo dado deberia dar una vuelta", function () {
     spyOn(window, "swap").and.callThrough();
     // callThrough le dice al spy que utilice el método original chocolate['masticar'],
     // mientras que callFake haría una copia.
